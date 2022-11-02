@@ -10,8 +10,8 @@
 
 <body>
     <h3>back <a href="../index.html">index</a></h3>
-    <h3>Forms</h3>
-    <form action="./lists.html" method="get">
+    <h3>Forms - Basic</h3>
+    <form action="./lists.html" method="get" id="form_01">
         <div>
             <label for="">First Name</label>
             <input type="text" name="first_name">
@@ -20,10 +20,15 @@
             <label for="">Second Name</label>
             <input type="text" name="second_name">
         </div>
+        <hr>
         <div>
             <button type="submit">보내기</button>
+            <button type="reset">Reset</button>
         </div>
     </form>
+    <hr>
+    <button type="reset" form="form_01">Reset outside form</button>
+
 </body>
 
 </html>
