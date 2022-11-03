@@ -9,6 +9,148 @@
 </head>
 
 <body>
+    <h3>back<a href="../../index.html" target="_self">Index</a></h3>
+    <h6>
+        http://127.0.0.1:5500/docs/htmls/forms.html?user_name=eunsol97&amp;password=sol97&amp;password_check=sol97&amp;email=solllll1230&amp;e_address=gmail.com&amp;
+        email=choose&amp;phone=010&amp;phone_1=7530&amp;phone_2=2057&amp;home_n=031&amp;home_1=&amp;home_2=&amp;zip_code=17330&amp;address=%EA%B2%BD%EA%B8%B0&amp;address_2=%EC%9D%B4%EC%B2%9C&amp;event_email=event_email
+    </h6>
+    <hr>
+    <h3>Sign Up</h3>
+    <form action="../forms.html" method="get">
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <th colspan="2">
+                        <h3>기본정보</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th>이름</th>
+                    <td>
+                        <input type="text" name="user_name" id="user_name_id">
+                        <button type="submit">아이디 중복 확인</button>
+                        <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <th>비밀번호</th>
+                    <td>
+                        <input type="text" name="password" id="password_id">
+                        <div>6~16자까지 영문자(대소문자), 숫자 및 특수문자 사용 가능합니다.</div>
+                        <div>3자리 연속 또는 같은 문자, 아이디는 사용하실 수 없습니다.</div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>비밀번호 확인</th>
+                    <td>
+                        <input type="text" name="password_check" id="password_check_id">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>이메일</th>
+                    <td>
+
+                        <input type="text" name="email" id="email_id">@
+                        <input type="text" name="e_address" id="e_address_id">
+                        <select name="email" id="">
+                            <option value="choose">메일주소선택</option>
+                            <option value="gmail">gmail.com</option>
+                            <option value="naver">naver.com</option>
+                            <option value="daum">daum.net</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>연락처</th>
+                    <td>
+                        <label for="">휴대전화</label>
+                        <select name="phone" id="">
+                            <option value="010">010</option>
+                            <option value="010">011</option>
+                            <option value="010">012</option>
+                        </select>
+                        -
+                        <input type="text" name="phone_1" id="phone_1_id">
+                        -
+                        <input type="text" name="phone_2" id="phone_2_id">
+                        <div>
+                            <label for="">일반전화</label>
+                            <select name="home_n" id="">
+                                <option value="031">031</option>
+                                <option value="031">032</option>
+                                <option value="054">054</option>
+                            </select>
+                            -
+                            <input type="text" name="home_1" id="home_1_id">
+                            -
+                            <input type="text" name="home_2" id="home_2_id">
+                        </div>
+                        <div>연락처는 둘 중 하나만 입력해도 됩니다.</div>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <th>우편번호</th>
+                    <td>
+                        <input type="text" name="zip_code" id="zip_code_id">
+                        <button type="submit">주소검색</button>
+                    </td>
+
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <th>주소</th>
+                    <td>
+                        <div>
+                            <input type="text" name="address" id="address_id">
+                        </div>
+                        <div>
+                            <input type="text" name="address_2" id="address_id_2">
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>정보수신 여부</th>
+                    <td>서비스 및 이벤트 소식을
+                        <input type="checkbox" name="event_email" value="event_email" id="event_email_id">
+                        <label for="event_email_id">Email로 수신하겠습니다.</label>
+                        <input type="checkbox" name="event_sms" value="event_sms" id="event_sms_id">
+                        <label for="event_sms_id">SMS로 수신하겠습니다.</label>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+
 
 </body>
 
