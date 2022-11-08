@@ -1,0 +1,25 @@
+* {
+  margin-bottom: 2px;
+  border: 1px dotted gray;
+}
+span {
+  width: 33%;
+  display: inline-block;
+}
+body {
+  margin: 0px;
+}
+.border-round-10px {
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.border-round-50px {
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+.border-round-50 {
+  border: 2px solid red;
+  border-radius: 50%;
+}
